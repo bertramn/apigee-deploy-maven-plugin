@@ -1,0 +1,21 @@
+NAME
+	help
+
+DESCRIPTION
+	Prints help information.
+
+SYNOPSIS
+	apigee help
+
+OPTIONS
+	None
+
+AVAILABLE COMMANDS
+	None
+
+EXAMPLES
+
+	To print this help
+
+		$ apigee help
+

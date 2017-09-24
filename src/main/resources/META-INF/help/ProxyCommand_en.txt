@@ -1,0 +1,27 @@
+NAME
+	proxy
+
+DESCRIPTION
+	Manage proxy services.
+
+SYNOPSIS
+	apigee proxy <subcommand>
+
+OPTIONS
+	None
+
+AVAILABLE COMMANDS
+	* list
+	* get
+
+EXAMPLES
+
+	To list all available proxies in a given session:
+
+		$ apigee proxy list
+
+	To get the detailed configuration of a proxy:
+
+		$ apigee proxy get my-test-proxy
+
+

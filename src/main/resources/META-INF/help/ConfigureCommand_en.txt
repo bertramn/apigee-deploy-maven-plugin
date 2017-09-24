@@ -1,0 +1,36 @@
+NAME
+	configure
+
+DESCRIPTION
+Configure Apigee CLI options. If this command is run with no arguments,
+you will be prompted for configuration values of your profile. You can
+configure a named profile using the --profile argument or a default pro-
+file if no profile is specified.  If your config file does not  exist
+(the default location is ~/.apigee/config), the Apigee CLI will create
+it for you. To keep an existing value, hit enter when prompted to retain
+the value currently present in the profile as displayed in [brackets].
+If the config item has no value, it be displayed as  [None].
+
+Note:  if you configure a basic auth client, the values  you  provide
+will  be  written  to  the  shared  credentials  file (~/.apigee/credentials).
+
+SYNOPSIS
+	apigee configure <subcommand>
+
+OPTIONS
+	None
+
+AVAILABLE COMMANDS
+	* list
+	* get
+
+EXAMPLES
+
+	To display all available profiles:
+
+		$ apigee configure list
+
+	To display the profile named 'default':
+
+		$ apigee configure get default
+
